@@ -1,0 +1,19 @@
+programa {
+    funcao inicio() {
+        real valorDolar, quantidadeDolares, valorInicial, iof, valorTotal
+
+        escreva("Digite a valorDolar do dolar (R$): ")
+        leia(valorDolar)
+        escreva("Qual a quantidade de dolares que voce deseja comprar? ")
+        leia(quantidadeDolares)
+
+        valorInicial = quantidadeDolares * valorDolar
+        iof = valorInicial * 0.011
+        valorTotal = valorInicial + iof
+
+        escreva("\n--- COMPROVANTE DA COMPRA ---\n")
+        escreva("Valor inicial em Reais: R$ ", valorInicial, "\n")
+        escreva("Taxa de IOF (1.1%): R$ ", iof, "\n")
+        escreva("Valor total em Reais: R$ ", valorTotal, "\n")
+    }
+}

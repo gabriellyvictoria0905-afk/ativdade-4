@@ -1,0 +1,19 @@
+Algoritmo "registro_pessoa"
+Var
+   nomePessoa : caractere
+   anos : inteiro
+   renda : real
+Inicio
+   escreva("Informe seu nome: ")
+   leia(nomePessoa)
+   escreva("Informe sua idade: ")
+   leia(anos)
+   escreva("Informe seu salario: ")
+   leia(renda)
+
+   escreval("")
+   escreval("--- INFORMACOES REGISTRADAS ---")
+   escreval("Nome: ", nomePessoa)
+   escreval("Idade: ", anos, " anos")
+   escreval("Salario: R$ ", renda:8:2)
+Fimalgoritmo

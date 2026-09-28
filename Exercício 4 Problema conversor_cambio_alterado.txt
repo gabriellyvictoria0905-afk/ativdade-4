@@ -1,0 +1,19 @@
+Algoritmo "conversao_moeda"
+Var
+   valorDolar, quantidadeDolares, valorInicial, iof, valorTotal : real
+Inicio
+   escreva("Digite a valorDolar do dolar (R$): ")
+   leia(valorDolar)
+   escreva("Qual a quantidade de dolares que deseja comprar? ")
+   leia(quantidadeDolares)
+
+   valorInicial <- quantidadeDolares * valorDolar
+   iof <- valorInicial * 0.011
+   valorTotal <- valorInicial + iof
+
+   escreval("")
+   escreval("--- COMPROVANTE DE CAMBIO ---")
+   escreval("Valor inicial em Reais: R$ ", valorInicial:8:2)
+   escreval("Taxa de IOF (1.1%): R$ ", iof:8:2)
+   escreval("Valor total em Reais: R$ ", valorTotal:8:2)
+Fimalgoritmo

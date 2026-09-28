@@ -1,0 +1,10 @@
+Algoritmo "programa_inicial"
+Var
+   produto : caractere
+   valorProduto : real
+Inicio
+   produto <- "Teclado Mecanico"
+   valorProduto <- 250.00
+
+   escreval("O produto ", produto, " tem o valor de R$ ", valorProduto:6:2)
+Fimalgoritmo 
